@@ -1,6 +1,6 @@
 # 30-Day-LeetCoding-Challenge-January-2021
 dummy = cur = ListNode(0)
-top down DP TLE ---> sliding window O(N)
+top down DP TLE ---> sliding window O(N) or prefix dict{0:-1} cum_sum 
 
 
 
