@@ -1,0 +1,10 @@
+class Solution:
+    def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
+        dic, ans = {}, []
+        for piece in pieces:
+            dic[piece[0]] = piece
+        for a in arr:
+            if a in dic:
+                ans.extend(dic[a])
+        return ''.join(map(str, arr)) == ''.join(map(str, ans))
+
