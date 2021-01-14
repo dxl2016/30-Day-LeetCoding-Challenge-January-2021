@@ -2,7 +2,7 @@
 dummy = cur = ListNode(0)
 top down DP TLE ---> sliding window O(N) or prefix dict{0:-1} cum_sum
 greedy, sorted, while l,r two pointers
-
+''.join(map(str, arr))
 
 
 
