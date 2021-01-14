@@ -1,10 +1,12 @@
 # 30-Day-LeetCoding-Challenge-January-2021
 dummy = cur = ListNode(0)
+top down DP TLE ---> sliding window O(N)
 
 
 
-
-
+###
+###
+###
 ### sort+DP BST
 ### @lru_cache(maxsize=None)
 ### result = result % (10^9+7)
