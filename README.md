@@ -7,7 +7,7 @@
 * in a sub recur function: change + recur function + freeze back
 * kth largest/smallest element in an array: quicksort, partition O(N)
 * 3pointers: for loop + first pointer + second pointer
-
+* simulate first a few test cases and find logic behind
 
 ###
 ###
