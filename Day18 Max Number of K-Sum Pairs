@@ -1,0 +1,12 @@
+class Solution:
+    def maxOperations(self, nums: List[int], k: int) -> int:
+        ans = 0
+        seen = defaultdict(int)
+        for ni in nums:
+            res = k-ni
+            if seen[res] > 0:
+                ans += 1
+                seen[res] -= 1
+            else:
+                seen[ni] += 1
+        return ans
